@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3 {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+
+body {
+    margin-top: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    background-color: #4060B4;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.score {
+    display: flex;
+    flex-direction: column;
+}
+
+.scoreText {
+    color: #FFF;
+    text-align: right;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+h1 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section {
+    display: flex;
+    margin-left: 9rem;
+    margin-right: 9rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.player {
+    display: flex;
+    flex-direction: column;
+}
+
+.computer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4rem;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    color: #FFF;
+    text-align: right;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.icon-box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    align-items: center;
+    border-radius: 15px;
+    background: #2F50A6;
+    width: 377px;
+    height: 377px;
+    flex-shrink: 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    flex-direction: row;
+    gap: 15px;
+}
+
+button {
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 7px;
+    background-color: transparent;
+    border: 1.5px solid #FFF;
+    width: 90px;
+    transition: all 0.1s;
+}
+
+button:hover {
+    outline: 2px solid #fff;
+    transition: all 0.1s;
+    cursor: pointer;
+}
+
+.symbol {
+    font-size: 100px;
+}
+
+@media only screen and (max-width: 1200px) {
+    h1 {
+        font-size: 24px;
+    }
+    section {
+        flex-direction: column;
+        margin-top: 3rem;
+    }
+    .icon-box {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1rem;
+        align-items: center;
+        border-radius: 15px;
+        background: #2F50A6;
+        width: 300px;
+        height: 300px;
+    }
+
+    body {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    section {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    header {
+        flex-direction: column;
+        justify-content: center ;
+    }
+
+    h1 {
+        text-align: center;
+        margin-bottom: 0.5rem;
+    }
+    .scoreText {
+        text-align: center;
+    }
+  }
